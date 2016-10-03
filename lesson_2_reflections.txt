@@ -18,3 +18,30 @@ How is the staging area different from the working directory and the repository?
 	to the staging area from the working directory.  When
 	those files are added to the repository, they are bundled
 	together and added as a whole unit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	Whenever you finish making a logical change to your pogram,
+	put all the files that constitute said changes in the
+	staging area. If you want you can compare this against
+	the latest commit, and the working directory to see
+	exactly what you've changed. So when finished working
+	on one logical change, you can stage the necessary files
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	
+	Branches are useful if you want to create a slightly
+	different version of your program. For example, an easy
+	mode, or a version in a different language. Or a version
+	in which you're testing out an experimental feature. It
+	helps you to create, test and save multiple lineages
+	of your program.
+
+How do the diagrams help you visualize the branch structure?
+
+	They help highlight and demonstrate the fact that branches
+	have a flow to them, they 'flow' downstream, just like a
+	river.  Meaning that if you create a new branch, or stream,
+	then this will not be reachable by other branches, because
+	it is upstream from other branches.  Each branch functions
+	independently of the other branches.
