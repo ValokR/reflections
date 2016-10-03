@@ -1,0 +1,60 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Viewing the difference between the files allowed me to see where and what changes were made to the file.  It narrowed
+    my search by weeding out all the code that was the same as the previous version (which means it can't have cause the
+     issue).
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    By having access to the entire history, it allows one to compare differences at every edit.  If say in version 5,
+    an element is no longer working, you can go back to version 4 when it was working and figure out what 
+    happend.  Rather than having to reinvent the wheel when something breaks, you can simply compare to a version that
+    you know works properly. 
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The pros of manually choosing when to commit are that, with practice, they are very likely if not
+    guaranteed to be significant enough to be worthy of a commit, yet also not so large that you have
+    difficulty comparing commits.  The con of manually
+    saving commits is that, until you are trained in doing
+    so, they could either be too large of a change, or too
+    small of a change.  More room for user error
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    It probably has to do with intentional design, and the
+    they way in which each program intends for it to be
+    used.  GIT is directed at programmers who have a need
+    to save multiple files at a time because said files
+    interact with eachother.  GoogleDocs is largely
+    used for text editing, and spreadhseets, so documents
+    that are standalone.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    You can use the git log command to look at all the commits,
+    find the version you are looking for via the description
+    and note the commit's ID.  Then you can use git diff to
+    compare that commit to the previous version and get a 
+    log of all the changes made.
+
+    git config --global color.ui auto //makes + and - colored
+    for increased readability.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    If you know that you can, at any time, revert back to 
+    a working state of your program, there is less risk
+    involved in making changes in it.  Without the ability
+    to revert to an older version, the introduction of a new
+    bug would be much harder to identify the cause of
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to use Git to learn android programming! Now it seems far less intimidating to go through and use git.
