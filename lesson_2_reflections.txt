@@ -45,3 +45,24 @@ How do the diagrams help you visualize the branch structure?
 	then this will not be reachable by other branches, because
 	it is upstream from other branches.  Each branch functions
 	independently of the other branches.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	The result of merging two branches together is that you
+	can merge functionality.  The branch that you're currently
+	checking out should be the master, and the other branch you
+	call will be merged into that.  This creates a new master
+	branch that has each previous 'head' as a parent to it.
+	For example, the parents of the merged master and coin
+	branches are both 'coin' and 'master
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	The pro of having the merge be automatic is that it saves a lot of time.
+	You don't have to go through the code line by line and come to a logical
+	decision on every difference in the code.  Instead when the automatic
+	merge happens, it alerts you to differences and shows you the 'master'
+	code, your code, and a collaborators code.  You can then look at just
+	these sections of code and decide which change should stay.  The con is
+	that git doesn't know how to merge code perfectly, so it is still up
+	to you as a programmer to make some decisions.
