@@ -25,3 +25,32 @@ Describe the differences between forks, clones, and branches. When would you use
 	repository, but is decidedly different in some manner that makes
 	you want to keep it separate from the master branch.
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	The benefit is that it allows you to work offline if necessary.  Also
+	so that you can look at the work of fellow collaborators and compare
+	it to yours before you decide to merge your master with GitHub's 
+	master
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	I feel that collborating without GitHub would be much more difficult
+	to do.  You would likely have to do it via e-mail, in which case you
+	upload your file you'd like to share, the other person would have to
+	download it, and then compare it using git diff.  There would be no
+	centralized commit history for everyone to look at, only the commit
+	history on each individual's machine.  Git and GitHub provide
+	programmers with a lot of tools in a convient way to develop and 
+	collaborate on their projects.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	Making changes in a separate branch allows you to make, and upload
+	changes to a program without necesserily effecting the 'working'
+	master branch.  It is more complex to download the most recent master,
+	merge it into your branch, and then upload your local master, and from
+	there you can make a pull request to merge that into GitHub's master.
+	But it allows for controlled collaboration on a project between many
+	users.  It requires that each change to the master branch on GitHub
+	be approved and looked over before being commited, which can come in
+	very handy when you have a plethore of people working on a project.
